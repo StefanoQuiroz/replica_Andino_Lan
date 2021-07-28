@@ -40,3 +40,7 @@
 .NavBar{
   background: #ded101 url("./images/bg_header.jpg") top center;
 }
+
+.carouselControlWrapper {
+  filter: invert(1)
+}
