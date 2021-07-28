@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
+.NavBar{
+  background: #ded101 url("./images/bg_header.jpg") top center;
+}
