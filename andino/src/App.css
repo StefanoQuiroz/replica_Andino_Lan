@@ -1,62 +1,46 @@
-/* .App {
+.App {
   text-align: center;
-} */
-
-.carousel{
-  width:51.875rem;
-  height: 21.25rem;
-  box-shadow: 5px 10px #5c5c5c;
-  box-sizing: border-box;
-  display: inline-block;
-
 }
 
-.carousel-control-prev{
-  margin-left: 0.125rem;
-  font-weight: bold;
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
 
-.carousel-control-next{
-  margin-right: 0.125rem;
-  font-weight: bold;
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
 
-.carousel-control-prev-icon{
-  margin-left: -5rem;
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
-.carousel-control-next-icon{
-  margin-right: -5rem;
+.App-link {
+  color: #61dafb;
 }
 
-.sr-only{
-  display: none;
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
-.breadCrumb {
-  margin-top: 6.25rem;
-  background: white;
-  border: 1px solid #e4e4e4;
-  border-radius: 0;
-  padding-top: 0.313rem;
-  padding-bottom: 0.313rem;
-  padding-left: 0.625rem;
-  margin-bottom: 0.875rem;
+.NavBar{
+  background: #ded101 url("./images/bg_header.jpg") top center;
 }
 
-.zone-form {
-  display: inline-block;
-  background: #f0f0f0;
-  padding: 0.938rem 1.563rem;
-  border-radius: 0.625rem;
-  width: 100%;
-  min-height: 21.25rem;
-  vertical-align: top;
+.carouselControlWrapper {
+  filter: invert(1)
 }
-
-.zone-form p{
-  text-align: center;
-  font-size: 28px;
-  margin-top: 60px;
-}
-
