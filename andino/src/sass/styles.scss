@@ -1,0 +1,63 @@
+/* style={{boxShadow: '5px 4px 8px #888888'}} */
+
+.NavBar{
+    height: 6.4rem;
+    box-shadow: 1px 4px 2px -1px #6e6e6e;
+    //position: fixed;
+    .Container{
+        display: flex;
+        height: 100%;
+        padding: 0;
+        .Col1{
+            height: 110%;
+            .NavBarBrand{
+                height: 100%;
+                margin: 0;
+            };
+            .logo{
+                justify-content: center;
+                height: 100%;
+            };
+        }
+        .Nav{
+            .NavItem{
+                justify-content: center;
+                margin: 0 1rem;
+                .NavLink{
+                    color: black;
+                    font-family: 'Montserrat-Light', sans-serif;
+                    font-size: 1rem;
+                    font-weight: 510;
+                }
+            }
+        }
+
+    }
+}
+
+.containerFooter{
+    height: 7.8rem;
+    background-color: #324b7b;
+    .footerRow{
+        text-align: center;
+        display: flex;
+        height: 2rem;
+        .p1{
+            font-weight: bold;
+            color: #fff;
+            padding: 0;
+            justify-content: center;
+            align-items: center;
+            margin-top: 1.6rem;
+            margin-bottom: 0.1rem;
+        }
+        .p2{
+            color: #fff;
+            padding: 0;
+            justify-content: center;
+            align-items: center;
+            margin-top: 0.5rem;
+            font-weight: 510;
+        }
+    }
+}

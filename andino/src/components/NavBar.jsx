@@ -1,30 +1,39 @@
 import React from 'react';
-import { NavbarBrand, Navbar, Nav, NavItem, NavLink } from 'reactstrap';
+import { NavbarBrand, Container, Navbar, Nav, NavItem, NavLink, Col } from 'reactstrap';
 import logo from '../images/Logo.PNG';
+import '../sass/styles.scss';
 //#ded101 url(bg_header.jpg) top center
 //Hice una modificación
 const NavBar = () => {
   return (
-      <Navbar style={{boxShadow: '5px 4px 8px #888888'}} className="NavBar" color="light" light expand="md">
-        <NavbarBrand><img src={logo}/></NavbarBrand>
-        <Nav navbar>
-          <NavItem>
-            <NavLink>INICIO</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink>PRODUCTOS</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink>SUCURSALES</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink>UBICACIÓN</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink>CONTACTO</NavLink>
-          </NavItem>
-        </Nav>
+
+      <Navbar className="NavBar" light expand="md">
+        <Container className="Container">
+          <Col className="Col1" sm={3}>
+            <NavbarBrand className="NavBarBrand"><img className="logo" src={logo}/></NavbarBrand>
+          </Col>
+          <Col  className="Col2" sm={9}>
+            <Nav className="Nav">
+              <NavItem className="NavItem">
+                <NavLink className="NavLink">INICIO</NavLink>
+              </NavItem>
+              <NavItem className="NavItem">
+                <NavLink className="NavLink">PRODUCTOS</NavLink>
+              </NavItem>
+              <NavItem className="NavItem">
+                <NavLink className="NavLink">SUCURSALES</NavLink>
+              </NavItem>
+              <NavItem className="NavItem">
+                <NavLink className="NavLink">UBICACIÓN</NavLink>
+              </NavItem>
+              <NavItem className="NavItem">
+                <NavLink className="NavLink">CONTACTO</NavLink>
+              </NavItem>
+            </Nav>
+          </Col>
+        </Container>
       </Navbar>
+
   );
 }
 
