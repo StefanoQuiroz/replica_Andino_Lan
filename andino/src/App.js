@@ -11,7 +11,7 @@ function App() {
       <NavBar/>  
       <HeroSection/>
       <Products/>
-      <Footer/>  
+      <Footer/>
     </div>
   );
 }
