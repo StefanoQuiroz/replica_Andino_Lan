@@ -3,6 +3,7 @@ import './App.css';
 import HeroSection from './components/HeroSection';
 import Products from './components/Products';
 import NavBar from './components/NavBar';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <NavBar/>  
       <HeroSection/>
       <Products/>
+      <Footer/>  
     </div>
   );
 }

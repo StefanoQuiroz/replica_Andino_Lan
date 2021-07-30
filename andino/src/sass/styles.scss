@@ -34,3 +34,30 @@
 
     }
 }
+
+.containerFooter{
+    height: 7.8rem;
+    background-color: #324b7b;
+    .footerRow{
+        text-align: center;
+        display: flex;
+        height: 2rem;
+        .p1{
+            font-weight: bold;
+            color: #fff;
+            padding: 0;
+            justify-content: center;
+            align-items: center;
+            margin-top: 1.6rem;
+            margin-bottom: 0.1rem;
+        }
+        .p2{
+            color: #fff;
+            padding: 0;
+            justify-content: center;
+            align-items: center;
+            margin-top: 0.5rem;
+            font-weight: 510;
+        }
+    }
+}
