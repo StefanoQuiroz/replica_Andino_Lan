@@ -1,0 +1,36 @@
+/* style={{boxShadow: '5px 4px 8px #888888'}} */
+
+.NavBar{
+    height: 6.4rem;
+    box-shadow: 1px 4px 2px -1px #6e6e6e;
+    //position: fixed;
+    .Container{
+        display: flex;
+        height: 100%;
+        padding: 0;
+        .Col1{
+            height: 110%;
+            .NavBarBrand{
+                height: 100%;
+                margin: 0;
+            };
+            .logo{
+                justify-content: center;
+                height: 100%;
+            };
+        }
+        .Nav{
+            .NavItem{
+                justify-content: center;
+                margin: 0 1rem;
+                .NavLink{
+                    color: black;
+                    font-family: 'Montserrat-Light', sans-serif;
+                    font-size: 1rem;
+                    font-weight: 510;
+                }
+            }
+        }
+
+    }
+}
