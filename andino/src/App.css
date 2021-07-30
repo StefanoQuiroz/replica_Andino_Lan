@@ -2,6 +2,10 @@
   text-align: center;
 } */
 
+body{
+  font-family: 'Montserrat-Light', sans-serif;
+}
+
 
 
 .NavBar{
@@ -73,3 +77,78 @@
   font-size: 28px;
   margin-top: 60px;
 }
+
+/* FIN DE HERO SECTION */
+
+
+/* PRODUCTS */
+
+.product-container{
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  margin-right: 10px;
+
+
+}
+
+.cuadrado{
+  border: 1px solid #a9a9a9;
+  padding: 15px;
+  box-shadow: 2px 2px 4px 0px rgb(0 0 0 / 75%);
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.cuadrado p{
+  font-size: 18px;
+  display: inline-block;
+  width: 100%;
+  color: #adadad;
+  margin-right: 15px;
+}
+
+.bebida{
+  width: 69px;
+  height: 215px;
+}
+
+.logo-bebida{
+  width: 85px;
+  height: 47px;
+  margin: 20px auto;
+}
+
+.product-container button{
+  background: #ffffa8;
+  color: #9e7d60;
+  padding: 15px 40px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px 0px rgb(0 0 0 / 75%);
+  text-transform: uppercase;
+  text-align: center;
+  
+}
+
+.products-container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.25rem;
+  margin-left: 11.625rem;
+}
+
+.title{
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #645c25;
+}
+
+
+
+
+
+
+/* FIN PRODUCTS */
+
+

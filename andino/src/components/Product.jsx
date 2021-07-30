@@ -1,17 +1,14 @@
 import React from 'react';
-import cocaCola from '../images/gaseosa-1.PNG';
-import logoCoca from '../images/log-1.PNG';
 
-export default function Product() {
+export default function Product({texto,bebida,logo}) {
   return (
-    <div className="container">
+    <div className="product-container">
       <div className="cuadrado">
-        <p>Para los consumidores de todo el mundo. El sabor universal de Coca-Cola es frescura para el cuerpo, mente y espíritu.</p>
-        <img src={cocaCola} alt="" />
+        <p>{texto}</p>
+        <img className = "bebida" src={bebida} alt="" />
       </div>
-      <img src={logoCoca} alt="" />
-      <button>Atencion al cliente</button>
-
+      <img className = "logo-bebida" src={logo} alt="" />
+      <button>ATENCION AL CLIENTE</button>
     </div>
   )
 }
