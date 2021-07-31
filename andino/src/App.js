@@ -1,17 +1,11 @@
 import React from 'react';
 import './App.css';
-import HeroSection from './components/HeroSection';
-import Products from './components/Products';
-import NavBar from './components/NavBar';
-import Footer from './components/Footer';
-
+import Inicio from './views/Inicio';
+// 
 function App() {
   return (
     <div className="App">
-      <NavBar/>  
-      <HeroSection/>
-      <Products/>
-      <Footer/>
+      <Inicio/>
     </div>
   );
 }
