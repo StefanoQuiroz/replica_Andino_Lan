@@ -1,9 +1,12 @@
-/* style={{boxShadow: '5px 4px 8px #888888'}} */
+/*Inicio NavBar*/
 
 .NavBar{
     height: 6.4rem;
     box-shadow: 1px 4px 2px -1px #6e6e6e;
-    //position: fixed;
+    z-index: 50;
+    position: fixed;
+    width: 100%;
+    margin-top: -7.2rem;
     .Container{
         display: flex;
         height: 100%;
@@ -35,6 +38,9 @@
     }
 }
 
+/* Fin NavBar */
+
+/* Inicio Footer */
 .containerFooter{
     height: 7.8rem;
     background-color: #324b7b;
@@ -61,3 +67,4 @@
         }
     }
 }
+/* Fin Footer */

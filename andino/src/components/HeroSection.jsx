@@ -65,7 +65,7 @@ export default function HeroSection(props) {
   });
 
   return (
-    <Container style={{marginTop:'10px'}}>
+    <Container style={{marginTop:'7.2rem'}}>
       
       <Row style={{width:"98.5%"}}>
         <p className="breadCrumb">Inicio</p>
