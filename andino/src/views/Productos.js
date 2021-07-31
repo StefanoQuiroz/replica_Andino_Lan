@@ -24,9 +24,11 @@ import logoAgua from '../images/log-7.PNG';
 
 import powerade from '../images/gaseosa-8.PNG';
 import logoPower from '../images/log-8.PNG';
+import NavBar from '../components/NavBar';
 const Productos = () => {
     return (
     <Container className="products-container">
+        <NavBar/>
         <Row>
             <h1 className="title">NUESTROS PRODUCTOS</h1>
         </Row>
