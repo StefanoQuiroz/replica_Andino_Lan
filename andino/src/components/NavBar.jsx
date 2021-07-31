@@ -1,12 +1,12 @@
 import React from 'react';
-import { NavbarBrand, Container, Navbar, Nav, NavItem, NavLink, Col } from 'reactstrap';
+import { NavbarBrand, Container, Navbar, Nav, NavItem, NavLink,Row, Col } from 'reactstrap';
 import logo from '../images/Logo.PNG';
 import '../sass/styles.scss';
 //#ded101 url(bg_header.jpg) top center
 //Hice una modificación
 const NavBar = () => {
   return (
-
+    <>
       <Navbar className="NavBar" light expand="md">
         <Container className="Container">
           <Col className="Col1" sm={3}>
@@ -33,6 +33,13 @@ const NavBar = () => {
           </Col>
         </Container>
       </Navbar>
+      <Container>
+        <Row style={{width:"98.5%", marginTop:"0.6rem"}}>
+          <p className="breadCrumb">Inicio</p>
+        </Row>
+      </Container>
+    </>
+
 
   );
 }

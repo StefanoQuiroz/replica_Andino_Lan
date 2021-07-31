@@ -31,11 +31,12 @@ import logoPower from '../images/log-8.PNG';
 export default function Products() {
 
   return (
+    
     <Container className="products-container">
       <Row>
         <h1 className="title">NUESTROS PRODUCTOS</h1>
       </Row>
-  
+
       <Row>
         <Col sm={3} className="col">
           <Product
