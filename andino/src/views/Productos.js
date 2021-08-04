@@ -1,8 +1,11 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Product from '../components/Product';
 import Footer from '../components/Footer';
 import NavBar from '../components/NavBar';
-import { Row, Col, Container, Nav } from 'reactstrap';
+import { Row, Col, Container, Nav} from 'reactstrap';
+import ReactPaginate  from 'react-paginate' ;
+import { IoIosArrowForward } from "react-icons/io";
+
 import cocaCola from '../images/gaseosa-1.PNG';
 import logoCoca from '../images/log-1.PNG';
 
@@ -95,6 +98,14 @@ const Productos = () => {
               bebida={powerade}
               logo={logoPower}
             />
+          </Col>
+        </Row>
+        <Row className="pagination">
+          <Col>
+              <span className="numeros numUno">1 of 2</span>
+          </Col>
+          <Col>
+              <button className="btnNext btnOneNext">siguiente <IoIosArrowForward/></button>
           </Col>
         </Row>
       </Container>

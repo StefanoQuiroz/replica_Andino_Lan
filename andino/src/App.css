@@ -90,7 +90,7 @@ body{
   flex-direction: column;
   margin-bottom: 20px;
   margin-right: 10px;
-
+  
 
 }
 
@@ -137,6 +137,7 @@ body{
   flex-direction: column;
   margin-top: 1.25rem;
   margin-left: 11.625rem;
+  overflow: hidden;
 }
 
 .title{
@@ -144,6 +145,43 @@ body{
   text-transform: uppercase;
   color: #645c25;
 }
+
+.pagination, .pagination2{
+  margin-bottom: 15px;
+}
+
+.numeros{
+  justify-content: flex-end;
+  margin-top: 5px;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.numUno{
+  float: right;
+}
+
+.btnOneNext{
+  float: left;
+}
+
+.numDos{
+  float: left;
+}
+
+.btnDosNext{
+  float: right;
+}
+
+.btnNext{
+    padding: 5px 14px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    
+}
+
+
 
 /* FIN PRODUCTS */
 
