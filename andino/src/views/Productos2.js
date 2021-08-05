@@ -13,11 +13,16 @@ import inca from '../images/gaseosa-3.PNG';
 import logoInca from '../images/log-3.PNG';
 
 import { IoIosArrowBack  } from "react-icons/io";
-
-
+import { useHistory } from 'react-router-dom';
 
 
 const Productos = () => {
+
+  const history = useHistory();
+  const anterior = () =>{
+    history.push('/productos/page/1');
+  };
+
   return (
     <div>
       <NavBar/>
@@ -52,7 +57,8 @@ const Productos = () => {
 
         <Row className="pagination">
           <Col>
-              <button className="btnNext btnDosNext"><IoIosArrowBack/>anterior</button>
+              <button className="btnNext btnDosNext" onClick={e => anterior(e)}>
+                <IoIosArrowBack/>anterior</button>
           </Col>
           <Col>
               <span className="numeros numDos">2 of 2</span>

@@ -29,8 +29,15 @@ import logoAgua from '../images/log-7.PNG';
 
 import powerade from '../images/gaseosa-8.PNG';
 import logoPower from '../images/log-8.PNG';
+import { useHistory } from 'react-router-dom';
 
 const Productos = () => {
+
+  const history = useHistory();
+  const siguiente = (e) =>{
+      history.push('/productos/page/2')
+  }
+
   return (
     <div>
       <NavBar/>
@@ -105,7 +112,8 @@ const Productos = () => {
               <span className="numeros numUno">1 of 2</span>
           </Col>
           <Col>
-              <button className="btnNext btnOneNext">siguiente <IoIosArrowForward/></button>
+              <button className="btnNext btnOneNext" onClick={e => siguiente(e)}>
+                  siguiente <IoIosArrowForward/></button>
           </Col>
         </Row>
       </Container>

@@ -5,6 +5,8 @@ import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Productos from './views/Productos';
 import Productos2 from './views/Productos2';
 import Sucursales from './views/Sucursales';
+import Ubicacion from './views/Ubicacion';
+import Contacto from './views/Contacto';
 
 function App() {
   return (
@@ -22,6 +24,12 @@ function App() {
           </Route>
           <Route path={'/sucursales'}>
             <Sucursales/>
+          </Route>
+          <Route path={'/ubicacion'}>
+            <Ubicacion/>
+          </Route>
+          <Route path={'/contacto'}>
+            <Contacto/>
           </Route>
         </Switch>
       </Router>
