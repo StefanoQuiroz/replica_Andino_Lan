@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-import React from 'react';
-
-const Sucursales = () => {
-    return (
-        <div>
-            
-        </div>
-    );
-}
-
-export default Sucursales;
-=======
 import React, {useState} from 'react';
 import Product from '../components/Product';
 import Footer from '../components/Footer';
@@ -30,22 +17,19 @@ import logoInca from '../images/log-3.PNG';
 import incaZero from '../images/gaseosa-4.PNG';
 import logoIncaZero from '../images/log-4.PNG';
 
-
-export default function Sucursales() {
+export default function Ubicacion() {
   return (
     <div>
       <NavBar/>
       <Container className="products-container">
         <Row  style={{marginBottom:"2rem"}}>
-           <h1 className="title">SUCURSALES</h1>
-           <Col sm = {12}>
-         
-              <p style={{marginBottom:"-0.25rem"}}>Av. Confederación Nro. 600 Sicuani – Canchis – Cusco</p>
-              <p style={{marginBottom:"-0.25rem"}}>La Cantuta S/N Urubamba – Urubamba – Cusco</p>
-              <p style={{marginBottom:"-0.25rem"}}>Av. Imperio de los Incas Nro. 205 Machupicchu – Urubamba – Cusco</p>
-          
-           </Col>
+           <h1 className="title">Ubicacion</h1>
         </Row>
+
+        <Row className="mapa-container" style={{height:"400px"}}>
+
+        </Row>
+
         <Row>
           <h1 className="title">NUESTROS PRODUCTOS</h1>
         </Row>
@@ -80,10 +64,8 @@ export default function Sucursales() {
             />
           </Col>
         </Row>
-
       </Container>
-      <Footer/>
-    </div>
+    <Footer/> 
+   </div>
   )
 }
->>>>>>> 741131c8c16bd0689d00d54df2b0da834e90c3c8
