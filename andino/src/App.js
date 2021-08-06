@@ -11,7 +11,7 @@ function App() {
           <Route exact path={`/`}>
             <Inicio/>
           </Route>
-          <Route path={`/productos`}>
+          <Route path={`/productos?page=:id`}>
             <Productos/>
           </Route>
         </Switch>
