@@ -12,3 +12,4 @@ export default function Product({texto,bebida,logo}) {
     </div>
   )
 }
+

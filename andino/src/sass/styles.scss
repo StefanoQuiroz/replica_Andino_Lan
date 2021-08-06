@@ -4,9 +4,10 @@
     height: 6.4rem;
     box-shadow: 1px 4px 2px -1px #6e6e6e;
     z-index: 50;
-    position: fixed;
+    //Crearemos componente alternativo del navBar con el title
+    /* position: fixed;
     width: 100%;
-    margin-top: -7.2rem;
+    margin-top: -7.2rem; */ 
     .Container{
         display: flex;
         height: 100%;
