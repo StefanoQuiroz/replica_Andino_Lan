@@ -18,7 +18,7 @@ https://andinosac.com/
 
 <p align="center">
 
-<img src='https://github.com/StefanoQuiroz/CTC/blob/main/gif/ctc-demo.gif' width='900px'>
+<img src='https://github.com/StefanoQuiroz/replica_Andino_Lan/blob/main/gif/andinoSPA1.gif' width='900px'>
 
 </p>
 
@@ -26,7 +26,7 @@ https://andinosac.com/
 
 <p align="center">
 
-<img src='https://github.com/StefanoQuiroz/CTC/blob/main/gif/ctc-demo.gif' width='900px'>
+<img src='https://github.com/StefanoQuiroz/replica_Andino_Lan/blob/main/gif/andinoSPA2.gif' width='900px'>
 
 </p>
 
@@ -34,18 +34,18 @@ https://andinosac.com/
 
 <p align="center">
 
-<img src='https://github.com/StefanoQuiroz/CTC/blob/main/src/images/Estructura.png' width='700px'>
+<img src='https://github.com/StefanoQuiroz/replica_Andino_Lan/blob/main/images/andinoSPA1.png' width='800px'>
 
 </p>
 
 <p align="center">
 
-<img src='https://github.com/StefanoQuiroz/CTC/blob/main/src/images/Estructura.png' width='700px'>
+<img src='https://github.com/StefanoQuiroz/replica_Andino_Lan/blob/main/images/andinoSPA2.png' width='800px'>
 
 </p>
 
 <p align="center">
 
-<img src='https://github.com/StefanoQuiroz/CTC/blob/main/src/images/Estructura.png' width='700px'>
+<img src='https://github.com/StefanoQuiroz/replica_Andino_Lan/blob/main/images/andinoSPA3.png' width='800px'>
 
 </p>
