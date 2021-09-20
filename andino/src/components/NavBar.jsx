@@ -45,7 +45,7 @@ const NavBar = () => {
         </Container>
       </Navbar>
       <Container>
-        <Row style={{width:"98.5%", marginTop:"0.6rem"}}>
+        <Row style={{width:"98.5%", marginTop:"7.2rem"}}>
           <p className="breadCrumb">Inicio</p>
         </Row>
       </Container>

@@ -29,13 +29,6 @@ import logoAgua from '../images/log-7.PNG';
 
 import powerade from '../images/gaseosa-8.PNG';
 import logoPower from '../images/log-8.PNG';
-<<<<<<< HEAD
-import NavBar from '../components/NavBar';
-const Productos = () => {
-    return (
-    <Container className="products-container">
-        <NavBar/>
-=======
 import { useHistory } from 'react-router-dom';
 
 const Productos = () => {
@@ -49,7 +42,6 @@ const Productos = () => {
     <div>
       <NavBar/>
       <Container className="products-container">
->>>>>>> 741131c8c16bd0689d00d54df2b0da834e90c3c8
         <Row>
           <h1 className="title">PRODUCTOS</h1>
         </Row>

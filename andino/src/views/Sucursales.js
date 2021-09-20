@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-import React from 'react';
-
-const Sucursales = () => {
-    return (
-        <div>
-            
-        </div>
-    );
-}
-
-export default Sucursales;
-=======
 import React, {useState} from 'react';
 import Product from '../components/Product';
 import Footer from '../components/Footer';
@@ -86,4 +73,3 @@ export default function Sucursales() {
     </div>
   )
 }
->>>>>>> 741131c8c16bd0689d00d54df2b0da834e90c3c8
