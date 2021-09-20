@@ -3,6 +3,7 @@
 Todos los derechos reservados Andino SAC.
 - Se desarrollo esta website tomando el formato de páginas estáticas de https://andinosac.com/ y posteriormente se convirtió al nuevo formato de SPA utilizando la tecnología de REACT en Java Script
 
+
 # Instrucciones
 
 ```sh
