@@ -3,7 +3,6 @@ import React from 'react';
 import { Row,Col, Container } from 'reactstrap';
 
 import Product from './Product';
-
 import cocaCola from '../images/gaseosa-1.PNG';
 import logoCoca from '../images/log-1.PNG';
 

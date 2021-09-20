@@ -5,9 +5,9 @@
     box-shadow: 1px 4px 2px -1px #6e6e6e;
     z-index: 50;
     //Crearemos componente alternativo del navBar con el title
-    /* position: fixed;
+    position: fixed;
     width: 100%;
-    margin-top: -7.2rem; */ 
+    margin-top: -7.2rem;
     .Container{
         display: flex;
         height: 100%;
@@ -32,6 +32,14 @@
                     font-family: 'Montserrat-Light', sans-serif;
                     font-size: 1rem;
                     font-weight: 510;
+                    a{
+                        text-decoration: none;
+                        color: #000;
+                    }
+                    & a:hover{
+                        background-color: #fff;
+                        padding: 0.5rem 0.37rem;
+                    }
                 }
             }
         }
