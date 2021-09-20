@@ -35,18 +35,18 @@ https://andinosac.com/
 
 <p align="center">
 
-<img src='https://github.com/StefanoQuiroz/replica_Andino_Lan/blob/main/images/andinoSPA1.png' width='800px'>
+<img src='https://github.com/StefanoQuiroz/replica_Andino_Lan/blob/main/images/andinoSPA1.png' width='900px'>
 
 </p>
 
 <p align="center">
 
-<img src='https://github.com/StefanoQuiroz/replica_Andino_Lan/blob/main/images/andinoSPA2.png' width='800px'>
+<img src='https://github.com/StefanoQuiroz/replica_Andino_Lan/blob/main/images/andinoSPA2.png' width='900px'>
 
 </p>
 
 <p align="center">
 
-<img src='https://github.com/StefanoQuiroz/replica_Andino_Lan/blob/main/images/andinoSPA3.png' width='800px'>
+<img src='https://github.com/StefanoQuiroz/replica_Andino_Lan/blob/main/images/andinoSPA3.png' width='900px'>
 
 </p>
